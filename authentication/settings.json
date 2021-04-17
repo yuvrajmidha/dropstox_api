@@ -1,0 +1,39 @@
+{
+    "validation": {
+        "messages": {
+            "emailMissing": "Email is required",
+            "emailExist": "Email already exists",
+            "emailInvalid": "Please enter a valid email",
+            "passwordMissing": "Please enter a password",
+            "passwordInvalidLength" : "Password lenght must be minimum 6 characters",
+            "passwordNotValid": "Password must contain a capital letter, and a symbol"
+        },
+        "password": {
+            "min": 6,
+            "max": 18,
+            "capitalLetters": true,
+            "specialCharacters": true
+        },
+        "email" : {
+            "isEmail": true,
+            "allowedDomains": "*",
+            "blockedDomains": "gmail.com" 
+        }
+    },
+    "blockedPathsForUser": ["signup, update/email"],
+    "actions": {
+        "onSignUp" : {
+            "sendMail": {
+                "to" : "{{email}}",
+                "name": "{{name}}",
+                "text": "Lorem Ipsum here."
+            }
+        },
+        "onAccountDelete": {},
+        "onChangePassword": {},
+        "onResetPassword": {},
+        "onUpdateDetails": {},
+        "onEmailValidation": {}
+    }
+
+}

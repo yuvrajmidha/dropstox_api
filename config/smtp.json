@@ -1,0 +1,13 @@
+{
+    "transporter": {
+        "host": "email-smtp.ap-south-1.amazonaws.com",
+        "port": 465,
+        "auth": {
+            "user": "AKIAR2DD4JPBHQV2FWHB",
+            "pass": "BKrRFM7+WOsQv59x95GM7tSVZdN8iLULnVaGIqSUWZLE"
+        },
+        "requireTLS": true
+    },
+    "Sender Name" : "Yuvraj Midha",
+    "Sender Email" : "yuvraj@gmail.com"
+}

@@ -1,0 +1,43 @@
+[
+    {
+        "category": "images",
+        "types": [
+            "image/jpeg",
+            "image/jpg",
+            "image/png",
+            "image/gif"
+        ]
+    },
+    {
+        
+        "category": "audios",
+        "types": []
+    },
+    {
+        "category": "videos",
+        "types": []
+    },
+    {
+        "category": "documents",
+        "types": []
+    },
+    {
+        "category": "applications",
+        "types": []
+    },
+    {
+        "category": "code",
+        "types": []
+    },
+    {
+        "category": "fonts",
+        "types": []
+    },
+    {
+        "category": "vectors",
+        "types": [
+            "image/svg+xml",
+            "image/svgl"
+        ]
+    }
+]
